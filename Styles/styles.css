@@ -1,0 +1,107 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  background: linear-gradient(to left, #000000, #2c2c2c); 
+  color: #fff;
+}
+
+
+header h1 {
+  margin: 0;
+  color: #D7A22A;
+}
+
+
+/* SECTION!!!!!!! */
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: left;
+}
+
+section h1{
+  margin: 0;
+    color: #fff;
+    text-shadow: 4px 4px 0 #9F792C , /* Teal shadow */
+                 4px -4px 0 #9F792C , /* Teal shadow */
+                 -4px 4px 0 #9F792C ; /* Teal shadow */
+
+}
+
+section h2{
+  margin: 0;
+    color: #fff;
+    text-shadow: 4px 4px 0 #9F792C , /* Teal shadow */
+                 4px -4px 0 #9F792C , /* Teal shadow */
+                 -4px 4px 0 #9F792C ; /* Teal shadow */
+
+}
+
+footer {
+  background-color: #006778;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, #006778, #008a7e);
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 5px 0;
+}
+
+a {
+  color: #D7A22A;
+  font-size: 30px;
+}
+
+a:link, a:visited {
+  color: #D7A22A;
+}
+
+a:hover, a:active {
+  color: #FFD700;
+}
+
+#name{
+  text-align: left;
+  font-size: 60px;
+}
+
+/* NAVIGATION!!! */
+nav {
+  background: linear-gradient(to right, #006778, #008a7e);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: right;
+  background-color: #006778;
+  padding: 10px 0;
+}
+
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 15px; /* Increase padding for better clickability */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+  background-color: #059ab4;; /* Change background color on hover */
+  transition: 1.5s;
+  text-decoration: none;
+}
