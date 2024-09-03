@@ -16,6 +16,7 @@ header h1 {
 
 /* SECTION!!!!!!! */
 
+
 section {
   padding: 20px;
   max-width: 800px;
@@ -36,7 +37,7 @@ section h1{
 section h2{
   margin: 0;
     color: #fff;
-    text-shadow: 4px 4px 0 #9F792C , /* Teal shadow */
+    text-shadow: 4px 4px 0 #9f792c , /* Teal shadow */
                  4px -4px 0 #9F792C , /* Teal shadow */
                  -4px 4px 0 #9F792C ; /* Teal shadow */
 
@@ -67,7 +68,7 @@ a {
 }
 
 a:link, a:visited {
-  color: #D7A22A;
+  color: #d1a140
 }
 
 a:hover, a:active {
@@ -80,28 +81,49 @@ a:hover, a:active {
 }
 
 /* NAVIGATION!!! */
+
+/* Style for the nav element */
 nav {
   background: linear-gradient(to right, #006778, #008a7e);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
-  justify-content: right;
-  background-color: #006778;
+  justify-content: center;
   padding: 10px 0;
 }
 
+/* Style for the unordered list */
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
 
-nav a {
+/* Style for list items */
+nav ul li {
+  margin: 0;
+}
+
+/* Style for the anchor tags */
+nav ul li a {
+  font-size: 60px;
+  font-weight: 800;
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
-  margin: 0 15px;
-  padding: 8px 15px; /* Increase padding for better clickability */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  padding: 8px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+  text-shadow: 2px 2px 0 #000000, 
+               2px -2px 0 #000000, 
+               -2px 4px 0 #000000;
 }
 
-nav a:hover {
-  background-color: #059ab4;; /* Change background color on hover */
-  transition: 1.5s;
+/* Style for anchor tags on hover */
+nav ul li a:hover {
+  background-color: #059ab4; 
+  transition: background-color 0.5s ease;
   text-decoration: none;
 }
+
+
